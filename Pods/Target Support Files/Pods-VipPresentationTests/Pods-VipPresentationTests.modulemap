@@ -1,0 +1,6 @@
+framework module Pods_VipPresentationTests {
+  umbrella header "Pods-VipPresentationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
