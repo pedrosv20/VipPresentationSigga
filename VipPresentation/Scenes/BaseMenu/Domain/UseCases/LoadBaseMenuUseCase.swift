@@ -24,8 +24,9 @@ final class LoadBaseMenuUseCase: LoadBaseMenuUseCaseProtocol {
     func execute() -> [MenuOption] {
         [
             .init(name: "Settings", icon: UIImage.strokedCheckmark, action: .openSettings),
-            .init(name: "Other", icon: UIImage.actions, action: .openOther),
-            .init(name: "Julinha", icon: UIImage.checkmark, action: .openOther),
+            .init(name: "Organizational Structure", icon: UIImage.actions, action: .openOther),
+            .init(name: "Sinchronism", icon: UIImage.checkmark, action: .openOther),
+            .init(name: "Logout", icon: UIImage.remove, action: .openOther),
         ]
     }
 }

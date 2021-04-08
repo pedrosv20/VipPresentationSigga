@@ -27,17 +27,18 @@ final class BaseMenuView: CodedView, BaseMenuViewProtocol {
         let view = UIView()
         view.backgroundColor = .white
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.layer.masksToBounds = true
+        view.layer.cornerRadius = 16
+        view.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
         return view
     }()
     
     private lazy var tableView: UITableView = {
         let table = UITableView()
         table.translatesAutoresizingMaskIntoConstraints = false
-        table.layer.masksToBounds = true
-        table.layer.cornerRadius = 8
         table.estimatedRowHeight = UITableView.automaticDimension
         table.rowHeight = UITableView.automaticDimension
-        table.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
+        
         table.dataSource = tableViewDataSource
         table.separatorStyle = .none
         table.register(
