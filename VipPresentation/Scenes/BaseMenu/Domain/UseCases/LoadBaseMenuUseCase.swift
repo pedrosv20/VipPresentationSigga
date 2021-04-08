@@ -1,6 +1,6 @@
 import UIKit
 
-struct MenuOption {
+struct MenuOption: Equatable {
     let name: String
     let icon: UIImage
     let action: Action
@@ -23,9 +23,9 @@ protocol LoadBaseMenuUseCaseProtocol {
 final class LoadBaseMenuUseCase: LoadBaseMenuUseCaseProtocol {
     func execute() -> [MenuOption] {
         [
-            .init(name: "Settings", icon: UIImage.add, action: .openSettings),
-            .init(name: "Other", icon: UIImage.add, action: .openOther),
-            .init(name: "Julinha", icon: UIImage.add, action: .openOther),
+            .init(name: "Settings", icon: UIImage.strokedCheckmark, action: .openSettings),
+            .init(name: "Other", icon: UIImage.actions, action: .openOther),
+            .init(name: "Julinha", icon: UIImage.checkmark, action: .openOther),
         ]
     }
 }

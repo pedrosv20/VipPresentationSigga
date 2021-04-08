@@ -20,6 +20,11 @@
 		07473FD72618DF7900F995D3 /* DisplayableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07473FD62618DF7900F995D3 /* DisplayableView.swift */; };
 		07473FDC26195DE300F995D3 /* BaseMenuViewTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07473FDB26195DE200F995D3 /* BaseMenuViewTableDataSource.swift */; };
 		07473FE22619617D00F995D3 /* LoadBaseMenuUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07473FE12619617D00F995D3 /* LoadBaseMenuUseCase.swift */; };
+		0753CC16261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753CC15261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift */; };
+		0753CC1E261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753CC1D261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift */; };
+		0753CC24261E997C00BD53D3 /* LoadBaseMenuUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753CC23261E997C00BD53D3 /* LoadBaseMenuUseCaseTests.swift */; };
+		0753CC33261E9B1D00BD53D3 /* BaseMenuViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753CC32261E9B1D00BD53D3 /* BaseMenuViewControllerTests.swift */; };
+		0753CC3A261E9EAC00BD53D3 /* test_presentMenuOptionList_itShouldReturnCorrectViewModel.1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0753CC39261E9EAC00BD53D3 /* test_presentMenuOptionList_itShouldReturnCorrectViewModel.1.txt */; };
 		0789886F2617D2810064074A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789886E2617D2810064074A /* AppDelegate.swift */; };
 		078988712617D2810064074A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078988702617D2810064074A /* SceneDelegate.swift */; };
 		078988732617D2810064074A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078988722617D2810064074A /* ViewController.swift */; };
@@ -64,6 +69,11 @@
 		07473FD62618DF7900F995D3 /* DisplayableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableView.swift; sourceTree = "<group>"; };
 		07473FDB26195DE200F995D3 /* BaseMenuViewTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuViewTableDataSource.swift; sourceTree = "<group>"; };
 		07473FE12619617D00F995D3 /* LoadBaseMenuUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadBaseMenuUseCase.swift; sourceTree = "<group>"; };
+		0753CC15261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuInteractorTests.swift; sourceTree = "<group>"; };
+		0753CC1D261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuPresenterTests.swift; sourceTree = "<group>"; };
+		0753CC23261E997C00BD53D3 /* LoadBaseMenuUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadBaseMenuUseCaseTests.swift; sourceTree = "<group>"; };
+		0753CC32261E9B1D00BD53D3 /* BaseMenuViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuViewControllerTests.swift; sourceTree = "<group>"; };
+		0753CC39261E9EAC00BD53D3 /* test_presentMenuOptionList_itShouldReturnCorrectViewModel.1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_presentMenuOptionList_itShouldReturnCorrectViewModel.1.txt; sourceTree = "<group>"; };
 		0789886B2617D2810064074A /* VipPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0789886E2617D2810064074A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		078988702617D2810064074A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -187,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				07473FEC2619623A00F995D3 /* UseCases */,
-				07473FE12619617D00F995D3 /* LoadBaseMenuUseCase.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -195,8 +204,62 @@
 		07473FEC2619623A00F995D3 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				07473FE12619617D00F995D3 /* LoadBaseMenuUseCase.swift */,
 			);
 			path = UseCases;
+			sourceTree = "<group>";
+		};
+		0753CC13261D4C6400BD53D3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0753CC14261D4C6800BD53D3 /* BaseMenu */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0753CC14261D4C6800BD53D3 /* BaseMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0753CC37261E9EAC00BD53D3 /* __Snapshots__ */,
+				0753CC22261E997100BD53D3 /* Domain */,
+				0753CC15261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift */,
+				0753CC1D261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift */,
+				0753CC32261E9B1D00BD53D3 /* BaseMenuViewControllerTests.swift */,
+			);
+			path = BaseMenu;
+			sourceTree = "<group>";
+		};
+		0753CC22261E997100BD53D3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0753CC23261E997C00BD53D3 /* LoadBaseMenuUseCaseTests.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0753CC37261E9EAC00BD53D3 /* __Snapshots__ */ = {
+			isa = PBXGroup;
+			children = (
+				0753CC38261E9EAC00BD53D3 /* BaseMenuPresenterTests */,
+			);
+			path = __Snapshots__;
+			sourceTree = "<group>";
+		};
+		0753CC38261E9EAC00BD53D3 /* BaseMenuPresenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0753CC39261E9EAC00BD53D3 /* test_presentMenuOptionList_itShouldReturnCorrectViewModel.1.txt */,
+			);
+			path = BaseMenuPresenterTests;
+			sourceTree = "<group>";
+		};
+		0753CC3E261E9EBB00BD53D3 /* SnapShotTestingView */ = {
+			isa = PBXGroup;
+			children = (
+				07473FC32617DD6500F995D3 /* __Snapshots__ */,
+				078988852617D2830064074A /* VipPresentationTests.swift */,
+			);
+			path = SnapShotTestingView;
 			sourceTree = "<group>";
 		};
 		078988622617D2810064074A = {
@@ -240,8 +303,8 @@
 		078988842617D2830064074A /* VipPresentationTests */ = {
 			isa = PBXGroup;
 			children = (
-				07473FC32617DD6500F995D3 /* __Snapshots__ */,
-				078988852617D2830064074A /* VipPresentationTests.swift */,
+				0753CC3E261E9EBB00BD53D3 /* SnapShotTestingView */,
+				0753CC13261D4C6400BD53D3 /* Scenes */,
 				078988872617D2830064074A /* Info.plist */,
 			);
 			path = VipPresentationTests;
@@ -397,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07473FC62617DD6500F995D3 /* test_view.1.png in Resources */,
+				0753CC3A261E9EAC00BD53D3 /* test_presentMenuOptionList_itShouldReturnCorrectViewModel.1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +586,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0753CC1E261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift in Sources */,
+				0753CC24261E997C00BD53D3 /* LoadBaseMenuUseCaseTests.swift in Sources */,
+				0753CC16261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift in Sources */,
+				0753CC33261E9B1D00BD53D3 /* BaseMenuViewControllerTests.swift in Sources */,
 				078988862617D2830064074A /* VipPresentationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

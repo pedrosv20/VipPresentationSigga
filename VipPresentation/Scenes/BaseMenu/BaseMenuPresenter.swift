@@ -27,7 +27,7 @@ final class BaseMenuPresenter: BaseMenuPresentationLogic {
         case .openSettings:
             viewController?.displaySettings() 
         default:
-            ()
+            return
         }
     }
 }

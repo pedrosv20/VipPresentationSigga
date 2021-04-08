@@ -1,0 +1,5 @@
+▿ Optional<Array<Model>>
+  ▿ some: 1 element
+    ▿ Model
+      - image: <UIImage symbol(_.system.remove) {20, 19} baseline=3.5,contentInsets={1, 1.5, 1, 1.5} config=<traits=(UserInterfaceIdiom = Phone, DisplayScale = 2, DisplayGamut = P3, HorizontalSizeClass = Compact, VerticalSizeClass = Regular, UserInterfaceStyle = Light, UserInterfaceLayoutDirection = LTR, PreferredContentSizeCategory = L, AccessibilityContrast = Normal)>>
+      - text: "teste"

@@ -32,7 +32,7 @@ final class BaseMenuTableViewCell: CodedTableViewCell {
     private lazy var iconImageView: UIImageView = {
         let view = UIImageView()
         view.image = .add
-        view.backgroundColor = .lightGray
+        view.backgroundColor = UIColor.lightGray.withAlphaComponent(0.3)
         view.layer.cornerRadius = 8
         view.contentMode = .scaleAspectFit
         view.clipsToBounds = true
