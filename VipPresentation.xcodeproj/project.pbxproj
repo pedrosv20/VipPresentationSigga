@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07012272261EB0B2005100E4 /* BaseMenuAssemblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07012271261EB0B2005100E4 /* BaseMenuAssemblerTests.swift */; };
+		07012277261EB2A5005100E4 /* MirrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07012276261EB2A5005100E4 /* MirrorExtension.swift */; };
 		074360F52617D78F00884E40 /* BaseMenuAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074360EE2617D78F00884E40 /* BaseMenuAssembler.swift */; };
 		074360F62617D78F00884E40 /* BaseMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074360EF2617D78F00884E40 /* BaseMenuPresenter.swift */; };
 		074360F72617D78F00884E40 /* BaseMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074360F02617D78F00884E40 /* BaseMenuRouter.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07012271261EB0B2005100E4 /* BaseMenuAssemblerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuAssemblerTests.swift; sourceTree = "<group>"; };
+		07012276261EB2A5005100E4 /* MirrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorExtension.swift; sourceTree = "<group>"; };
 		074360EE2617D78F00884E40 /* BaseMenuAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuAssembler.swift; sourceTree = "<group>"; };
 		074360EF2617D78F00884E40 /* BaseMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuPresenter.swift; sourceTree = "<group>"; };
 		074360F02617D78F00884E40 /* BaseMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuRouter.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 			children = (
 				0743610A2617D85B00884E40 /* ViewCode.swift */,
 				07473FD62618DF7900F995D3 /* DisplayableView.swift */,
+				07012276261EB2A5005100E4 /* MirrorExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				0753CC15261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift */,
+				07012271261EB0B2005100E4 /* BaseMenuAssemblerTests.swift */,
 				0753CC1D261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift */,
 				0753CC32261E9B1D00BD53D3 /* BaseMenuViewControllerTests.swift */,
 				0753CC37261E9EAC00BD53D3 /* __Snapshots__ */,
@@ -572,6 +578,7 @@
 				074360F62617D78F00884E40 /* BaseMenuPresenter.swift in Sources */,
 				07473FE22619617D00F995D3 /* LoadBaseMenuUseCase.swift in Sources */,
 				074360F52617D78F00884E40 /* BaseMenuAssembler.swift in Sources */,
+				07012277261EB2A5005100E4 /* MirrorExtension.swift in Sources */,
 				07473FD72618DF7900F995D3 /* DisplayableView.swift in Sources */,
 				078988712617D2810064074A /* SceneDelegate.swift in Sources */,
 				074360FA2617D78F00884E40 /* BaseMenuInteractor.swift in Sources */,
@@ -586,6 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07012272261EB0B2005100E4 /* BaseMenuAssemblerTests.swift in Sources */,
 				0753CC1E261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift in Sources */,
 				0753CC24261E997C00BD53D3 /* LoadBaseMenuUseCaseTests.swift in Sources */,
 				0753CC16261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift in Sources */,
