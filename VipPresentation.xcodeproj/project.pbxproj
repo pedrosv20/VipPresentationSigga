@@ -138,7 +138,6 @@
 		074360ED2617D77F00884E40 /* BaseMenu */ = {
 			isa = PBXGroup;
 			children = (
-				07473FE02619617200F995D3 /* Domain */,
 				074360EE2617D78F00884E40 /* BaseMenuAssembler.swift */,
 				074360F32617D78F00884E40 /* BaseMenuInteractor.swift */,
 				074360EF2617D78F00884E40 /* BaseMenuPresenter.swift */,
@@ -146,6 +145,7 @@
 				074360F22617D78F00884E40 /* BaseMenuSceneModels.swift */,
 				074360F12617D78F00884E40 /* BaseMenuViewController.swift */,
 				074360FF2617D79400884E40 /* BaseView */,
+				07473FE02619617200F995D3 /* Domain */,
 			);
 			path = BaseMenu;
 			sourceTree = "<group>";
@@ -153,8 +153,8 @@
 		074360FF2617D79400884E40 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
-				07473FCA2617E7E100F995D3 /* Cells */,
 				074360F42617D78F00884E40 /* BaseMenuView.swift */,
+				07473FCA2617E7E100F995D3 /* Cells */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -220,11 +220,12 @@
 		0753CC14261D4C6800BD53D3 /* BaseMenu */ = {
 			isa = PBXGroup;
 			children = (
-				0753CC37261E9EAC00BD53D3 /* __Snapshots__ */,
-				0753CC22261E997100BD53D3 /* Domain */,
 				0753CC15261D4C8A00BD53D3 /* BaseMenuInteractorTests.swift */,
 				0753CC1D261D5D8B00BD53D3 /* BaseMenuPresenterTests.swift */,
 				0753CC32261E9B1D00BD53D3 /* BaseMenuViewControllerTests.swift */,
+				0753CC37261E9EAC00BD53D3 /* __Snapshots__ */,
+				0753CC22261E997100BD53D3 /* Domain */,
+				0753CC3E261E9EBB00BD53D3 /* View */,
 			);
 			path = BaseMenu;
 			sourceTree = "<group>";
@@ -253,13 +254,13 @@
 			path = BaseMenuPresenterTests;
 			sourceTree = "<group>";
 		};
-		0753CC3E261E9EBB00BD53D3 /* SnapShotTestingView */ = {
+		0753CC3E261E9EBB00BD53D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				07473FC32617DD6500F995D3 /* __Snapshots__ */,
 				078988852617D2830064074A /* VipPresentationTests.swift */,
 			);
-			path = SnapShotTestingView;
+			path = View;
 			sourceTree = "<group>";
 		};
 		078988622617D2810064074A = {
@@ -303,7 +304,6 @@
 		078988842617D2830064074A /* VipPresentationTests */ = {
 			isa = PBXGroup;
 			children = (
-				0753CC3E261E9EBB00BD53D3 /* SnapShotTestingView */,
 				0753CC13261D4C6400BD53D3 /* Scenes */,
 				078988872617D2830064074A /* Info.plist */,
 			);
